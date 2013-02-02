@@ -1,0 +1,19 @@
+{
+  "name": "Delete Cookies",
+  "version": "3",
+  "manifest_version": 3,
+  "description": "Get rid of all cookies set by the page currently open in your active tab. One click to delete them all.",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "cookies",
+    "*://*/*"
+  ]
+}
