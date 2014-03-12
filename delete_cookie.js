@@ -1,5 +1,5 @@
 function UrlParser(urlToParse) {
-  var domainPattern = /^([\w-]+:\/*)([\w\.-]+)(?::\d+)?/,
+  var domainPattern = '.yellowpages.com',
       separator = '.',
       url = urlToParse;
 

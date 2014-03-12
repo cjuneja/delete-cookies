@@ -1,4 +1,3 @@
-delete-cookies
+Delete MY cookies
 ==============
-
-Chrome Extension which deletes all cookies from the domain open in active tab. 
+This extension deletes very specific domain cookies without having to be on that site.
